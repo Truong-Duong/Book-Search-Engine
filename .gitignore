@@ -2,7 +2,7 @@
 node_modules
 .DS_STORE
 package-lock.json
-
+/server/node_modules
 npm audit fix
 
 # Logs
