@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a employee database by using mysql.",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,17 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truong-Duong/Book-Search-Engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Truong-Duong/Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/Truong-Duong/Book-Search-Engine#readme"
 }
